@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "git-build":"ng b --base-href 'https://navrosesingh.github.io/hostTest/' && npx angular-cli-ghpages --dir=dist/host-it"
   },
   "private": true,
   "dependencies": {
